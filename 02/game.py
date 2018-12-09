@@ -44,6 +44,7 @@ def _validation(word, draw):
 
     return ((all(letter in list(map(str.lower, draw)) for letter in list(word)) and (word in DICTIONARY)))
 
+    #return ((all(letter in list( draw) for letter in list(word)) and (word in DICTIONARY)))
     pass
 
 

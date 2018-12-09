@@ -17,6 +17,8 @@ POUCH = list(''.join(
         list(letter.name * int(letter.amount) 
             for letter in distribution))
     )
+
+#print (POUCH)
 assert len(POUCH) == 98  # no wildcards in this simple game
 
 
@@ -24,6 +26,8 @@ LETTER_SCORES = dict(zip(
         [letter.name for letter in distribution],
         [int(letter.value) for letter in distribution]
     ))
+
+#print(LETTER_SCORES)
 
 assert LETTER_SCORES['A'] == 1
 assert LETTER_SCORES['Q'] == 10
