@@ -77,3 +77,5 @@ if __name__ == "__main__":
     print('* Similar tags:')
     for singular, plural in similar_tags.items():
         print('{:<20} {}'.format(singular, plural))
+
+
