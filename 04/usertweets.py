@@ -11,7 +11,7 @@ DEST_DIR = 'data'
 EXT = 'csv'
 NUM_TWEETS = 100
 
-test = 0
+
 
 Tweet = namedtuple('Tweet', 'id_str created_at text')
 
@@ -24,7 +24,7 @@ class UserTweets(object):
         to create api
         Use _get_tweets() helper to get a list of tweets.
         Save the tweets as data/<handle>.csv"""
-        # ...
+        #
         #print("11111")
 
         self.handle = handle
