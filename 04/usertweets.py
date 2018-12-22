@@ -11,7 +11,7 @@ DEST_DIR = 'data'
 EXT = 'csv'
 NUM_TWEETS = 100
 
-
+test = 0
 
 Tweet = namedtuple('Tweet', 'id_str created_at text')
 
@@ -21,7 +21,7 @@ class UserTweets(object):
     def __init__(self, handle, max_id=None):
         """Get handle and optional max_id.
         Use tweepy.OAuthHandler, set_access_token and tweepy.API
-        to create api interface.
+        to create api
         Use _get_tweets() helper to get a list of tweets.
         Save the tweets as data/<handle>.csv"""
         # ...
